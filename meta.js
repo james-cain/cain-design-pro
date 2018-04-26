@@ -3,26 +3,37 @@ module.exports = {
       "name": {
         "type": "input",
         "required": true,
-        "message": "the repo name"
+        "message": "Project name"
       },
       "description": {
         "type": "input",
         "required": false,
-        "message": "description",
+        "message": "Project description",
         "default": "cain-design-pro"
       },
       "author": {
         "type": "input",
-        "message": "author"
+        "message": "Author"
+      },
+    //   "login": {
+    //       "type": "confirm",
+    //       "message": "Use logical unit?"
+    //   },
+      "charts": {
+          "type": "confirm",
+          "message": "Install echarts and Use echarts' unit?"
       }
     },
     "skipInterpolation": [
-      "src/components/**/*.vue",
-      "src/views/**/*.vue",
-      "static/font_icon/**",
-      "theme/**",
-      "test/**"
-    ]
+      "src/components/**/*",
+      "src/components/*",
+      "src/views/**/*",
+      "src/views/*",
+      "static/**"
+    ],
+    "filters": {
+        "src/views/echarts/*": "charts"
+    }
   }
 
 
