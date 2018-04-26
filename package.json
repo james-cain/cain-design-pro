@@ -1,0 +1,25 @@
+{
+  "name": "cain-design-pro",
+  "version": "1.0.0",
+  "description": "A wonderful template by cain-cli produced",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/james-cain/cain-design-pro.git"
+  },
+  "keywords": [
+    "vue.js",
+    "cain-cli",
+    "element-ui",
+    "echarts"
+  ],
+  "author": "james-cain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/james-cain/cain-design-pro/issues"
+  },
+  "homepage": "https://github.com/james-cain/cain-design-pro#readme"
+}
