@@ -32,7 +32,7 @@ module.exports = {
       "static/**"
     ],
     "filters": {
-        "src/views/echarts/*": "charts"
+        "src/views/charts/*": "charts"
     }
   }
 
