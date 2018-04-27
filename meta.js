@@ -32,7 +32,8 @@ module.exports = {
       "static/**"
     ],
     "filters": {
-        "src/views/charts/*": "charts"
+        "src/views/charts/*": "charts",
+        "src/components/charts/*": "charts"
     }
   }
 
